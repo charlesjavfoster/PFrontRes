@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: url('images/crypto-header.jpg') no-repeat center center/cover;
+    height: 250px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  
+  header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  header .header-content {
+    position: relative;
+    z-index: 2;
+    padding: 100px 0;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  a {
+    color: #00f0ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #core-competencies {
+    background-color: #0b1e2d;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #core-competencies h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00f0ff;
+  }
+  
+  #competencies-list {
+    list-style: none;
+  }
+  
+  #competencies-list li {
+    background-color: #111;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #222;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
+    transition: transform 0.3s;
+  }
+  
+  #competencies-list li:hover {
+    transform: scale(1.05);
+  }
+  
+  #experience {
+    background-color: #0d2436;
+    padding: 40px 20px;
+  }
+  
+  #experience h2 {
+    font-size: 2rem;
+    color: #00f0ff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #experience-list div {
+    background-color: #111;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #222;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
+  }
+  
+  #experience-list h3 {
+    color: #00f0ff;
+  }
+  
+  #experience-list ul {
+    list-style-type: none;
+  }
+  
+  #experience-list li {
+    padding: 5px;
+  }
+  
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00f0ff;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #005577;
+  }
+  
+  #calculator-output {
+    background-color: #222;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button:active {
+    background-color: #004466;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #222;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  h2 {
+    color: #00f0ff;
+    text-shadow: 0 0 15px rgba(0, 240, 255, 0.8);
+    text-align: center;
+  }

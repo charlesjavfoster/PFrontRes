@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Foster - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Charles Foster</h1>
+      <p>Washington Metropolitan Area | <a href="mailto:fostercharlesrm@gmail.com">fostercharlesrm@gmail.com</a></p>
+    </div>
+  </header>
+  
+  <section id="core-competencies">
+    <h2>Core Competencies</h2>
+    <ul id="competencies-list"></ul>
+  </section>
+
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div id="experience-list"></div>
+  </section>
+
+  <section id="password-generator">
+    <h2>Password Generator</h2>
+    <div>
+      <label for="length">Password Length:</label>
+      <input type="number" id="length" value="12" min="4" max="20">
+    </div>
+    <button id="generate-password-btn">Generate Password</button>
+    <p id="password-output">Your password will appear here.</p>
+  </section>
+
+  <section id="calculator">
+    <h2>Calculator</h2>
+    <div id="calculator-output">0</div>
+    <div class="calculator-buttons">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>/</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>*</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>-</button>
+      <button>0</button>
+      <button>.</button>
+      <button>=</button>
+      <button>+</button>
+      <button>C</button>
+    </div>
+  </section>
+
+  <section id="rps-game">
+    <h2>Rock, Paper, Scissors</h2>
+    <div>
+      <button class="rps-btn">Rock</button>
+      <button class="rps-btn">Paper</button>
+      <button class="rps-btn">Scissors</button>
+    </div>
+    <p id="rps-result">Make a choice!</p>
+  </section>
+
+  <footer>
+    <p>© 2024 Charles Foster | Powered by Cryptocurrency</p>
+  </footer>
+
+  <script src="dist/app.js"></script>
+</body>
+</html>
