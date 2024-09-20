@@ -24,7 +24,7 @@ var competencies = [
 ];
 var experiences = [
     {
-        title: "Privacy & Compliance Lead, Trust & Safety",
+        title: "Privacy & Compliance Support Engineer, Trust & Safety",
         company: "Twilio",
         dates: "November 2022—August 2024",
         location: "Washington Metropolitan Area",
