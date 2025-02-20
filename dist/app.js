@@ -24,42 +24,43 @@ var competencies = [
 ];
 var experiences = [
     {
-        title: "Privacy & Compliance Team Lead, Trust & Safety",
-        company: "Twilio",
-        dates: "November 2022—August 2024",
-        location: "Washington Metropolitan Area",
-        responsibilities: [
-            "Collaborated with Legal and Data Platform engineering teams to ensure privacy compliance.",
-            "Led projects to automate workflow, increasing productivity by 40%.",
-            "Processed data access and deletion requests for EU and US customers.",
-            "Handled GDPR compliance for Kafka Java schemas.",
-            "Worked with engineering to leverage OpenAI’s API to automate security documentation.",
-            "Presented analysis of malicious patterns for strategic mitigation plans."
-        ]
+      title: "Senior IAM Engineer II, Identity Access Management",
+      company: "Ping Identity",
+      dates: "November 2024—Present",
+      location: "Washington Metropolitan Area",
+      responsibilities: [
+        "Designed and implemented IAM solutions to enhance security, ensuring robust authentication and authorization mechanisms across cloud and on-prem environments.",
+        "Developed and enforced role-based access control (RBAC) policies, reducing excessive privilege risks and improving compliance with regulatory standards such as FedRAMP, PCI-DSS, and SOC 2.",
+        "Contributed to Python scripts for automating certificate renewals and API integrations, reducing manual intervention by 30%.",
+        "Developed API-based authentication workflows using OAuth, OpenID Connect (OIDC), and SAML to streamline secure user authentication across applications."
+      ]
     },
     {
-        title: "Support Engineer Tech Lead, Payment Security",
-        company: "Zuora",
-        dates: "May 2020—October 2022",
-        location: "Washington Metropolitan Area",
-        responsibilities: [
-            "Led payment security onboarding for enterprise clients.",
-            "Collaborated with Sales and Customer Success Managers in bi-weekly meetings.",
-            "Resolved critical payment issues and delivered postmortem reports.",
-            "Managed the release of Zuora's Hosted Payment Pages v3 with enhanced security measures."
-        ]
-    },
-    {
-        title: "Senior Technical Support Engineer",
-        company: "CallRail",
-        dates: "January 2018—April 2020",
-        location: "Atlanta, GA",
-        responsibilities: [
-            "Handled escalated cases around front-end customer issues.",
-            "Mentored new hires, increasing overall productivity by 30%.",
-            "Developed internal documentation for troubleshooting with Postman."
-        ]
-    }
+      title: "Privacy & Compliance Support Engineer, Trust & Safety",
+      company: "Twilio",
+      dates: "August 2021—August 2024",
+      location: "Washington Metropolitan Area",
+      responsibilities: [
+        "Collaborated with Legal and Data Platform engineering teams to ensure privacy compliance.",
+        "Led projects to automate workflow, increasing productivity by 40%.",
+        "Processed data access and deletion requests for EU and US customers.",
+        "Handled GDPR compliance for Kafka Java schemas.",
+        "Worked with engineering to leverage OpenAI’s API to automate security documentation.",
+        "Presented analysis of malicious patterns for strategic mitigation plans."
+    ]
+  },
+  {
+      title: "Support Engineer Tech Lead, Payment Security",
+      company: "Zuora",
+      dates: "May 2020—August 2021",
+      location: "Washington Metropolitan Area",
+      responsibilities: [
+        "Led payment security onboarding for enterprise clients.",
+        "Collaborated with Sales and Customer Success Managers in bi-weekly meetings.",
+        "Resolved critical payment issues and delivered postmortem reports.",
+        "Managed the release of Zuora's Hosted Payment Pages v3 with enhanced security measures."
+    ]
+  }
 ];
 function loadCompetencies() {
     var competenciesList = document.getElementById("competencies-list");
