@@ -2,24 +2,20 @@
 var _a;
 var competencies = [
     {
-        category: "Fraud Prevention",
-        skills: ['Splunk', 'LogRhythm', '3DS2', 'Microsoft Dynamics 365 Fraud Protection']
+      category: "Security Monitoring & Logging",
+      skills: ['Splunk', 'Grafana', 'Kibana', 'Datadog']
     },
     {
-        category: "Security Monitoring & Logging",
-        skills: ['Grafana', 'Kibana', 'Datadog']
+      category: "Cloud & Database Management",
+      skills: ['AWS', 'Docker', 'Kubernetes', 'PostgreSQL', 'BigQuery']
     },
     {
-        category: "Cloud & Database Management",
-        skills: ['AWS', 'Docker', 'Kubernetes', 'PostgreSQL', 'BigQuery']
+      category: "Development Language Knowledge",
+      skills: ['HTML', 'CSS', 'Python', 'JavaScript', 'Java', 'TypeScript']
     },
     {
-        category: "Development Language Knowledge",
-        skills: ['HTML', 'CSS', 'Python', 'JavaScript', 'Java']
-    },
-    {
-        category: "Collaboration & Support Tools",
-        skills: ['Slack', 'JIRA', 'Zendesk', 'ServiceCloud', 'Zoom']
+      category: "Collaboration & Support Tools",
+      skills: ['Slack', 'JIRA', 'Zendesk', 'ServiceCloud', 'Zoom']
     }
 ];
 var experiences = [
