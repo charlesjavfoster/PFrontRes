@@ -15,34 +15,34 @@ var competencies = [
     },
     {
       category: "Collaboration & Support Tools",
-      skills: ['Slack', 'JIRA', 'Zendesk', 'ServiceCloud', 'Zoom']
+      skills: ['Slack', 'JIRA', 'Zendesk', 'Salesforce', 'Zoom']
     }
 ];
 var experiences = [
     {
-      title: "Senior IAM Engineer II, Identity Access Management",
+      title: "Senior Support Engineer II, FedRamp",
       company: "Ping Identity",
-      dates: "November 2024—Present",
+      dates: "October 2024—Present",
       location: "Washington Metropolitan Area",
       responsibilities: [
         "Designed and implemented IAM solutions to enhance security, ensuring robust authentication and authorization mechanisms across cloud and on-prem environments.",
         "Developed and enforced role-based access control (RBAC) policies, reducing excessive privilege risks and improving compliance with regulatory standards such as FedRAMP, PCI-DSS, and SOC 2.",
         "Contributed to Python scripts for automating certificate renewals and API integrations, reducing manual intervention by 30%.",
-        "Developed API-based authentication workflows using OAuth, OpenID Connect (OIDC), and SAML to streamline secure user authentication across applications."
+        "Efficiently manage and respond to client inquiries regarding CVEs, conducting thorough assessments to determine the applicability and impact of vulnerabilities on their systems."
       ]
     },
     {
-      title: "Privacy & Compliance Support Engineer, Trust & Safety",
+      title: "Threat Intelligence Analyst",
       company: "Twilio",
       dates: "August 2021—August 2024",
       location: "Washington Metropolitan Area",
       responsibilities: [
-        "Collaborated with Legal and Data Platform engineering teams to ensure privacy compliance.",
-        "Led projects to automate workflow, increasing productivity by 40%.",
-        "Processed data access and deletion requests for EU and US customers.",
+        "Developed SQL runbooks to detect attack patterns and TTPs, introducing workflows that reduced security threats through data-driven countermeasures.",
+        "Used SIEM tools to block 1,000+ bad sign-ups and prevent 200+ account takeovers from GitHub.",
+        "Processed DSR requests for EU and US customers.",
         "Handled GDPR compliance for Kafka Java schemas.",
         "Worked with engineering to leverage OpenAI’s API to automate security documentation.",
-        "Presented analysis of malicious patterns for strategic mitigation plans."
+        "Partnered with cross-functional teams to address incidents involving child exploitation, paraphernalia, and political disinformation."
     ]
   },
   {
@@ -51,7 +51,7 @@ var experiences = [
       dates: "May 2020—August 2021",
       location: "Washington Metropolitan Area",
       responsibilities: [
-        "Led payment security onboarding for enterprise clients.",
+        "Led payment security incident management.",
         "Collaborated with Sales and Customer Success Managers in bi-weekly meetings.",
         "Resolved critical payment issues and delivered postmortem reports.",
         "Managed the release of Zuora's Hosted Payment Pages v3 with enhanced security measures."
